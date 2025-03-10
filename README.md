@@ -1,1 +1,1 @@
-This include the source file of the semester projects of my group.
+This repository is basically my playground for experimentation and checking out different stuff
