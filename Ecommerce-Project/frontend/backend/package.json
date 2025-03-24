@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-project",
+  "name": "curd",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -11,10 +11,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bcryptjs": "^3.0.2",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "mongoose": "^8.12.1",
-    "nodemon": "^3.1.9"
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3"
   }
 }
