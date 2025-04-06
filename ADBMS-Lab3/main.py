@@ -3,7 +3,6 @@ from database_connection import DataBaseConnection
 
 # Main function to run the script
 def main():
-
     dbconnect = DataBaseConnection()
     conn, cursor = dbconnect.connect_db()
 
@@ -11,7 +10,7 @@ def main():
         return
 
     while True:
-        print("\n📌 Choose an option:")
+        print("\nChoose an option:")
         print("1. Insert a new student")
         print("2. Fetch all students")
         print("3. Update student age")
@@ -29,10 +28,10 @@ def main():
         elif choice == "4":
             dbconnect.delete_student(cursor, conn)
         elif choice == "5":
-            print("✅ Exiting the program.")
+            print("Exiting the program.")
             break
         else:
-            print("❌ Invalid choice. Please try again.")
+            print("Invalid choice. Please try again.")
 
     cursor.close()
     conn.close()
